@@ -1,0 +1,19 @@
+.sugGen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.favList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    background-color: lightslategray;
+}

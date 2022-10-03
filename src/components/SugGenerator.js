@@ -1,15 +1,15 @@
 import React from 'react';
 
-function SugGenerator(props) {
+function SugGenerator({handleClick}) {
     return (
         <div>
         
             <h1>Activity Generator</h1>
-            <h2>sug</h2>
+            <h2></h2>
 
 
 
-            <button>Generate</button>
+            <button onClick={handleClick}>Generate</button>
             
             
             </div>

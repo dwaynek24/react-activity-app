@@ -5,7 +5,7 @@ function SugGenerator({handleClick}) {
         <div>
         
             <h1>Activity Generator</h1>
-            <h2></h2>
+            
 
 
 

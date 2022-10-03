@@ -1,11 +1,11 @@
 import React from 'react';
 
-function FavList({addActivity}, props) {
+function FavList({addActivity}) {
     return (
         <div>
             <button onClick={addActivity}>Add</button>
         
-            <p>{props.fav}</p>
+            
             </div>
     );
 }

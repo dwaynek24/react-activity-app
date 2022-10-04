@@ -1,3 +1,27 @@
+
+
+.Header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+    font-size: 20px;
+    background-color: rgb(133, 177, 230);
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(246, 233, 233));
+    margin: 5px;
+border: 7px double #851e04;
+    
+}
+#Gen{color: #851e04;
+    border: 2px solid black;
+
+}
+#favB{
+    color: #851e04;
+    border: 2px solid black;
+    font-size: 25;
+}
+
 .sugGen {
     display: flex;
     justify-content: center;
@@ -9,15 +33,41 @@
     justify-content: center;
     align-items: center;
 }
+.favBox{
+background-color:rgb(133, 177, 230);
+background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(233, 233, 233));
+padding: 10px;
+margin: 15px;
+border: 10px double #851e04;
+
+}
 .about {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 10px;
+margin-bottom: 250px;
 }
 body{
-    background-color: lightslategray;
+    background-image: linear-gradient(to bottom right, rgb(213, 215, 213), rgb(6, 63, 123));
 }
+footer{background-color: black;}
 .sugResults {
     display: flex;
     justify-content: center;
-    align-items: center;}
+    align-items: center;
+    background-color:rgb(133, 177, 230) ;
+    padding: 10px;
+    margin: 15px;
+    border: 10px double #851e04;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(233, 233, 233))
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:cursive;
+    font-size: larger;
+    font-weight: 400;
+
+}

@@ -4,12 +4,12 @@ function SugGenerator({handleClick}) {
     return (
         <div>
         
-            <h1>Activity Generator</h1>
+            
             
 
 
 
-            <button onClick={handleClick}>Generate</button>
+            <button id="Gen"onClick={handleClick}>Give Me Something To Do</button>
             
             
             </div>

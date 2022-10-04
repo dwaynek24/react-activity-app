@@ -6,6 +6,7 @@ import SugGenerator from './components/SugGenerator';
 import { useEffect, useState } from 'react';
 import SugResults from './components/SugResults';
 import FavBox from './components/FavBox';
+import Header from './components/Header';
 function App() {
   
   const[activity, setActivity] = useState([]);
@@ -42,6 +43,7 @@ function addActivity(click) {
 console.log(fav)
   return (
     <div>
+      <div className="Header"><Header/></div>
 
       <div className="sugGen"><SugGenerator handleClick ={handleClick}/></div>
       <div className="sugResults"><SugResults activity={activity} type={type} link={link} price={price}/></div>

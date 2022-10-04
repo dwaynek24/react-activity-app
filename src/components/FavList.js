@@ -3,7 +3,7 @@ import React from 'react';
 function FavList({addActivity}) {
     return (
         <div>
-            <button onClick={addActivity}>Add</button>
+            <button id="favB" onClick={addActivity}>Add</button>
         
             
             </div>

@@ -1,73 +1,106 @@
-
-
-.Header{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: cursive;
-    font-size: 20px;
-    background-color: rgb(133, 177, 230);
-    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(246, 233, 233));
-    margin: 5px;
-border: 7px double #851e04;
-    
+.Header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: cursive;
+  font-size: 20px;
+  background-color: rgb(133, 177, 230);
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 0, 0, 0),
+    rgb(246, 233, 233)
+  );
+  margin: 5px;
+  border: 7px double #851e04;
 }
-#Gen{color: #851e04;
-    border: 2px solid black;
-
+#Gen {
+  color: #851e04;
+  border: 2px solid black;
 }
-#favB{
-    color: #851e04;
-    border: 2px solid black;
-    font-size: 25;
+#favB {
+  color: #851e04;
+  border: 2px solid black;
+  font-size: 25;
 }
 
 .sugGen {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .favList {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.favBox{
-background-color:rgb(133, 177, 230);
-background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(233, 233, 233));
-padding: 10px;
-margin: 15px;
-border: 10px double #851e04;
-
+.favBox {
+  background-color: rgb(133, 177, 230);
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 0, 0, 0),
+    rgb(233, 233, 233)
+  );
+  padding: 10px;
+  margin: 15px;
+  border: 10px double #851e04;
 }
 .about {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-margin-bottom: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 250px;
 }
-body{
-    background-image: linear-gradient(to bottom right, rgb(213, 215, 213), rgb(6, 63, 123));
+body {
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(213, 215, 213),
+    rgb(6, 63, 123)
+  );
 }
-footer{background-color: black;}
+footer {
+  background-color: black;
+}
 .sugResults {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color:rgb(133, 177, 230) ;
-    padding: 10px;
-    margin: 15px;
-    border: 10px double #851e04;
-    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(233, 233, 233))
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(133, 177, 230);
+  padding: 10px;
+  margin: 15px;
+  border: 10px double #851e04;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 0, 0, 0),
+    rgb(233, 233, 233)
+  );
 }
-.about{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family:cursive;
-    font-size: larger;
-    font-weight: 400;
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: cursive;
+  font-size: larger;
+  font-weight: 400;
+}
 
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px) {
+}
+
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
 }

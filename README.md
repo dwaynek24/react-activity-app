@@ -4,8 +4,8 @@ Description: "Bored?" is a React based app, that provides activity suggestions t
 
 
 
+<img width="783" alt="Screen Shot 2022-10-06 at 11 09 14 AM" src="https://user-images.githubusercontent.com/32526185/194387358-70748409-4859-4ba1-b47a-bde8f218ce3f.png">
 
-<img width="791" alt="Screen Shot 2022-10-06 at 10 54 02 AM" src="https://user-images.githubusercontent.com/32526185/194385401-d9c7c056-5d6d-43f3-a00e-a0c05d1af89a.png">
 
 
 
